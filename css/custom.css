@@ -372,47 +372,7 @@
 
 
 
-/* 页脚徽标居中样式 */
-#footer-wrap {
-  display: flex;
-  justify-content: center; /* 水平居中 */
-  align-items: center;     /* 垂直居中 */
-  flex-direction: column;  /* 垂直排列子元素 */
-  width: 100%;
-  text-align: center;
-}
 
-/* 确保徽标容器本身也居中 */
-.footer-beautify-badge {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; /* 如果徽标多行显示，允许换行 */
-  gap: 10px;       /* 徽标之间的间距 */
-  width: 100%;
-  margin: 10px 0;
-}
-
-/* 针对单个徽标项的样式 */
-.footer-beautify-badge-item {
-  display: inline-block;
-  margin: 5px;
-}
-
-/* 如果徽标是轮播形式 */
-#footer-wrap .swiper-wrapper {
-  justify-content: center;
-}
-
-/* 响应式调整 */
-@media (max-width: 768px) {
-  .footer-beautify-badge {
-    justify-content: center;
-  }
-  
-  .footer-beautify-badge-item {
-    margin: 3px;
-  }
-}
 
 
 
