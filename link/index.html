@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>友链 | 等安好'Blog</title><meta name="author" content="等安好"><meta name="copyright" content="等安好"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="🎉 欢迎来到我的友链天地！期待与你的网站相遇 ✨                    目前共有 0 位小伙伴                                          🤝 申请友链            欢迎志同道合的朋友交换友链！请确保您的网站：                ✅ 内容健康、合法         ✅ 正常访问且经常更新">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>友链 | 等安好'Blog</title><meta name="author" content="等安好"><meta name="copyright" content="等安好"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="🎉 欢迎来到我的友链天地！期待与你的网站相遇 ✨                    目前共有 0 位小伙伴                                          🤝 申请友链            欢迎志同道合的朋友交换友链！请确保您的网站：                ✅ 内容健康、合法         ✅ 正常访问         ✅ 已添">
 <meta property="og:type" content="website">
 <meta property="og:title" content="友链">
 <meta property="og:url" content="https://www.denganhao.top/link/index.html">
 <meta property="og:site_name" content="等安好&#39;Blog">
-<meta property="og:description" content="🎉 欢迎来到我的友链天地！期待与你的网站相遇 ✨                    目前共有 0 位小伙伴                                          🤝 申请友链            欢迎志同道合的朋友交换友链！请确保您的网站：                ✅ 内容健康、合法         ✅ 正常访问且经常更新">
+<meta property="og:description" content="🎉 欢迎来到我的友链天地！期待与你的网站相遇 ✨                    目前共有 0 位小伙伴                                          🤝 申请友链            欢迎志同道合的朋友交换友链！请确保您的网站：                ✅ 内容健康、合法         ✅ 正常访问         ✅ 已添">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://www.denganhao.top/img/%E4%B8%AA%E4%BA%BA%E5%A4%B4%E5%83%8F/%E5%A4%B4%E5%83%8F.jpg">
 <meta property="article:published_time" content="2025-10-01T22:35:23.000Z">
-<meta property="article:modified_time" content="2025-10-07T14:59:39.646Z">
+<meta property="article:modified_time" content="2025-10-07T15:08:40.402Z">
 <meta property="article:author" content="等安好">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://www.denganhao.top/img/%E4%B8%AA%E4%BA%BA%E5%A4%B4%E5%83%8F/%E5%A4%B4%E5%83%8F.jpg"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.denganhao.top/link/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="manifest" href="/manifest.json"/><meta name="msapplication-TileColor" content="#3b70fc"/><link rel="apple-touch-icon" sizes="180x180" href="/img/site/22.png"/><link rel="icon" type="image/png" sizes="32x32" href="/img/siteicon/22.png"/><link rel="icon" type="image/png" sizes="16x16" href="/img/siteicon/22.png"/><link rel="mask-icon" href="/img/siteicon/22.png" color="#5bbad5"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
@@ -168,7 +168,7 @@
       <p>欢迎志同道合的朋友交换友链！请确保您的网站：</p>
       <ul>
         <li>✅ 内容健康、合法</li>
-        <li>✅ 正常访问且经常更新</li>
+        <li>✅ 正常访问</li>
         <li>✅ 已添加本站链接</li>
       </ul>
       <div class="my-info">
@@ -239,21 +239,27 @@ const friendLinks = [
 /* 友链网格布局 */
 .friend-links {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 25px;
   margin-bottom: 50px;
 }
 
-/* 友链卡片样式 */
+/* 友链卡片样式 - 修改为居中布局 */
 .flink-list-item {
   background: var(--card-bg);
   border-radius: 15px;
-  padding: 25px;
+  padding: 30px 20px;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   border: 1px solid var(--border-color);
   position: relative;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 200px;
+  justify-content: center;
 }
 
 .flink-list-item::before {
@@ -281,7 +287,7 @@ const friendLinks = [
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-bottom: 15px;
   border: 3px solid #fff;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
@@ -293,15 +299,19 @@ const friendLinks = [
 }
 
 .flink-item-info {
-  flex: 1;
+  width: 100%;
 }
 
 .flink-item-name {
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   color: var(--text-color);
   transition: color 0.3s ease;
+  word-break: break-all; /* 确保长名称换行显示 */
+  overflow-wrap: break-word; /* 处理长单词换行 */
+  line-height: 1.3;
+  padding: 0 10px;
 }
 
 .flink-list-item:hover .flink-item-name {
@@ -313,6 +323,8 @@ const friendLinks = [
   opacity: 0.8;
   line-height: 1.5;
   font-size: 0.95em;
+  padding: 0 10px;
+  word-break: break-word;
 }
 
 /* 申请友链区域 */
@@ -322,6 +334,7 @@ const friendLinks = [
   padding: 30px;
   margin-top: 40px;
   border: 1px solid var(--border-color);
+  text-align: center;
 }
 
 .friend-link-request h3 {
@@ -333,6 +346,9 @@ const friendLinks = [
 
 .request-info {
   color: var(--text-color);
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .request-info ul {
@@ -355,6 +371,7 @@ const friendLinks = [
   border-radius: 10px;
   margin-top: 20px;
   border-left: 4px solid #49b1f5;
+  text-align: left;
 }
 
 /* 响应式设计 */
@@ -369,7 +386,12 @@ const friendLinks = [
   }
 
   .flink-list-item {
-    padding: 20px;
+    padding: 25px 15px;
+    min-height: 180px;
+  }
+
+  .flink-item-name {
+    font-size: 1.3em;
   }
 }
 
@@ -396,6 +418,13 @@ const friendLinks = [
 .flink-list-item:nth-child(4) { animation-delay: 0.4s; }
 .flink-list-item:nth-child(5) { animation-delay: 0.5s; }
 .flink-list-item:nth-child(6) { animation-delay: 0.6s; }
+
+/* 确保文字不会被截断 */
+.flink-item-name, .flink-item-desc {
+  overflow: visible;
+  white-space: normal;
+  text-overflow: unset;
+}
 </style>
 
 <script>
@@ -408,7 +437,7 @@ document.addEventListener('DOMContentLoaded', function() {
   linkCountElement.textContent = friendLinks.length;
 
   // 生成友链卡片
-  friendLinks.forEach(link => {
+  friendLinks.forEach((link, index) => {
     const linkCard = document.createElement('a');
     linkCard.href = link.link;
     linkCard.target = '_blank';
@@ -420,14 +449,15 @@ document.addEventListener('DOMContentLoaded', function() {
       linkCard.style.background = `linear-gradient(135deg, ${link.color}20 0%, ${link.color}10 100%)`;
     }
 
+    // 设置动画延迟
+    linkCard.style.animationDelay = `${0.1 + index * 0.1}s`;
+
     linkCard.innerHTML = `
-      <div style="display: flex; align-items: center;">
-        <img class="flink-item-icon" src="${link.avatar}" alt="${link.name}" 
-             onerror="this.src='/img/friend-avatar/default.jpg'">
-        <div class="flink-item-info">
-          <div class="flink-item-name">${link.name}</div>
-          <div class="flink-item-desc">${link.descr}</div>
-        </div>
+      <img class="flink-item-icon" src="${link.avatar}" alt="${link.name}" 
+           onerror="this.src='/img/friend-avatar/default.jpg'">
+      <div class="flink-item-info">
+        <div class="flink-item-name">${link.name}</div>
+        <div class="flink-item-desc">${link.descr}</div>
       </div>
     `;
 
@@ -441,7 +471,7 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
           <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/hello-world/"><span class="card-category-list-name">hello world</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"><span class="card-category-list-name">数据结构与算法</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"><span class="card-category-list-name">第一篇文章</span><span class="card-category-list-count">1</span></a></li>
-          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" style="font-size: 1.1em; color: #999">测试文章</a> <a href="/tags/hello-world/" style="font-size: 1.1em; color: #999">hello world</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" style="font-size: 1.1em; color: #999">数据结构与算法</a></div></div><div class="card-widget card-archives">
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/hello-world/" style="font-size: 1.1em; color: #999">hello world</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" style="font-size: 1.1em; color: #999">数据结构与算法</a> <a href="/tags/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" style="font-size: 1.1em; color: #999">测试文章</a></div></div><div class="card-widget card-archives">
     <div class="item-headline">
       <i class="fas fa-archive"></i>
       <span>归档</span>
@@ -469,7 +499,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </li>
       
     </ul>
-  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">3</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-10-07T15:00:01.238Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><div class="aplayer no-destroy" data-id="8260203504" data-server="netease" data-type="playlist" data-order="list" data-fixed="true" data-preload="auto" data-autoplay="true" data-mutex="true" ></div>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">3</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-10-07T15:08:57.230Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><div class="aplayer no-destroy" data-id="8260203504" data-server="netease" data-type="playlist" data-order="list" data-fixed="true" data-preload="auto" data-autoplay="true" data-mutex="true" ></div>
 </script> <!--live2d--> <script src="/live2d/TweenLite.js"></script> <script src="/live2d/live2dcubismcore.min.js"></script> <script src="/live2d/pixi.min.js"></script> <script src="/live2d/cubism4.min.js"></script> <link href="/live2d/pio.css" rel="stylesheet" type="text/css"/> <script src="/live2d/pio.js"></script> <script src="/live2d/pio_sdk4.js"></script> <script src="/live2d/load.js"></script><script src="/js/qq-modal.js"></script><script src="/js/wechat-modal.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script>(() => {
   const destroyAplayer = () => {
     if (window.aplayers) {
